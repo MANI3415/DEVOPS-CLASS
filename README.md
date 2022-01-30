@@ -76,7 +76,9 @@ DAY-9 (29-01-2022)
   - discussed about Public DNA
   - discussed about Public VPC
   - Deleting the created VPC
-step-1
+
+
+--step-1
 
 openvpc
 ---------
