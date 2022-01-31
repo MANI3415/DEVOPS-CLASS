@@ -112,7 +112,8 @@ open ec2
 launche instance--select any one of ami--select t2 micro free trair--choose instance type---select the alredy create vpc-to launch the ec2--open git bash to connection--now ec2 is launched by using created vpc
 without any error.
 
-**DAY-9 (31-01-2022)
+
+**DAY-10 (31-01-2022)
 - VIDEO LINK:https://youtu.be/EFZzknfFXsg
 - Topics discussed on 31/1/2022:
   -  
