@@ -3,22 +3,22 @@ DEVOPS--CLASSLINK
 - Zoom Credentials: Zoom id: 960 7884 5638
 - Passcode: devops
 -----------------
-DAY-1 (18-01-2022)
+**DAY-1 (18-01-2022)
 - VIDEO LINK:https://www.youtube.com/watch?v=d3u72SxI7ZE&t=445s
 - TOPICS DISCUSSED ON 18/01/2022
   - DEVOPS INTRODUCTION
 
-DAY-2 (19-01-2022)
+**DAY-2 (19-01-2022)
 - VIDEO LINK:https:https://www.youtube.com/watch?v=n4tlrIbEbPs
 - TOPICS DISCUSSED ON 19/01/2022
   - LINUX COMMANDS DISCUSSED
 
-DAY-3 (20-01-2022)
+**DAY-3 (20-01-2022)
 - VIDEO LINK:https:https://www.youtube.com/watch?v=xN1I4MTWbZo
 - TOPICS DISCUSSED ON 20/01/2022
   - LINUX COMMANDS DISCUSSED
 
-DAY-4 (21-01-2022)
+**DAY-4 (21-01-2022)
 - VIDEO LINK:https:https://www.youtube.com/watch?v=vN3JCmrT9GA
 - TOPICS DISCUSSED ON 21/01/2022
   - DEVOPS TOOLS
@@ -31,13 +31,13 @@ DAY-4 (21-01-2022)
   - AWS ACCOUNT CREATION
   - DEMO OF EC2(SERVER LAUNCH)
 
-DAY-5 (24-01-2022)
+**DAY-5 (24-01-2022)
 - VIDEO LINK:https://www.youtube.com/watch?v=zho0BsWVU6M
 - TOPICS DISCUSSED ON 24/01/2022:
   - EC2(SERVER LAUNCH)
   - SECURITY GROUPS
 
-DAY-6 (25-01-2022)
+**DAY-6 (25-01-2022)
 - VIDEO LINK:https://www.youtube.com/watch?v=qRrpPEus0go&t=2933s
 - TOPICS DISCUSSED ON 25/0/2022:
   - IAM(IDENTITY ACCESS MANAGEMENT)
@@ -48,14 +48,14 @@ DAY-6 (25-01-2022)
     - POLICES--CREATE POLICES(SERVER ACCESSABILITY TIME EXAMPLE:SOMETIMES SERVER ACCESSABILITY INCREASED AND SOMETIME LOW)
     - IDENTITY PRIVIDER
 
-DAY-7 (27-01-2022)
+**DAY-7 (27-01-2022)
 - VIDEO LINK:https://www.youtube.com/watch?v=ZuI3sB7FUho
 - TOPICS DISCUSSED ON 27/01/2022
   - S3BUCKET(SIMPLE STORAGE SERVICE)
   - IT IS STORE THE FILES RANGE(0-5GB)
   - UPLOADING FILE IN S3BUCKET AND ACCESS 
 
-DAY-8 (28/0/2022)
+**DAY-8 (28/0/2022)
 - VIDEO LINK:https://youtu.be/klHKLSLHObI
 - TOPICS DISCUSSED ON 28/01/2022
   - S3 BUCKET
@@ -66,7 +66,7 @@ DAY-8 (28/0/2022)
     - ROUTING
     - INTERNET GATEWAY
 
-DAY-9 (29-01-2022)
+**DAY-9 (29-01-2022)
 - VIDEO LINK:https://youtu.be/vuSYOf9-_dM
 - Topics discussed on 29/1/2022:
   - VPC Creation
@@ -76,6 +76,8 @@ DAY-9 (29-01-2022)
   - discussed about Public DNA
   - discussed about Public VPC
   - Deleting the created VPC
+
+**step by step launch ec2 by using created vpc
   
   step-1
 
