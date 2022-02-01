@@ -116,6 +116,43 @@ without any error.
 **DAY-10 (31-01-2022)
 - VIDEO LINK:https://youtu.be/EFZzknfFXsg
 - Topics discussed on 31/1/2022:
-  -  
+
+
+
+
+
+
+**DAY-11 (01-02-2022)
+- VIDEO LINK:https://youtu.be/HaQvaEP2SJ8
+- TOPICS DISCUSSED ON 01/02/2022:
+- NATGATE WAY
+
+- Load Balancing--
+- Auto Scaling--High Availability
+
+- Elastic Load Balancer(ELB)
+  - microservices                             
+    - /user                       
+    - /app                       
+    - /user-name
+  - target group 
+    - customized apps
+    - (nginx)(apache)
+  - round robin mechanism
+    - Request--Response
+
+           EFS(Elastic File System)
+
+### Network Load Balancer is a Faster Then Application Load Balancer
+
+**NETWORK LOAD BALANCER
+- NLB IS WORKS ON TCP/UDP PROTOCOL
+- OSI LAYER
+- PORT BASED ROUTING
+
+**APPLICATION LOAD BALANCER:
+- ALB------HTTP/HTTPS
+- APPLICATION LAYER
+- PATH BASED ROUTING
 
 
