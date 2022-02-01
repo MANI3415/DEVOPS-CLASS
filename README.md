@@ -22,7 +22,8 @@ DEVOPS--CLASSLINK
 - VIDEO LINK:https:https://www.youtube.com/watch?v=vN3JCmrT9GA
 - TOPICS DISCUSSED ON 21/01/2022
   - DEVOPS TOOLS
-    - AWS-GITHUB
+    - AWS
+    - GITHUB
     - DOCKER
     - ANCIBLE
     - KUBER NETES
