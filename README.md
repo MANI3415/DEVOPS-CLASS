@@ -171,7 +171,7 @@ without any error.
 
 - first we launch the EC2 Instances
 
--- **load balancing
+-- load balancing
     - Load Balancers             
     - Target Groups
 
@@ -191,18 +191,18 @@ without any error.
   - NLB CREATION:-
     - SELECT CREATE LOAD BALANCER--SELECT NETWORK LOAD BALANCER--GIVE THE LOAD BALANCER NAME AND SELECT THE NLB TARGET GROUP--CREATE LOAD BALANCER
 
--- **Auto Scaling
+-- Auto Scaling
     - Launch Configurations
     - Auto Scaling Groups
 
 - STEP-3:-
-- **Launch Configurations:-
+- Launch Configurations:-
   
   -- Select the Launch Configurations create Launch Configurations--first we create the launch templates--and give the template name and select AMI(amazon machine image)--and        select any one of security group--create launch template
    - now create Launch Configurations--give name,select any one of AMI and select instance(t2-micro),and select key pair is requried or not--create Launch Configurations
 
 - STEP-4:-
-- **Auto Scaling Groups:-
+- Auto Scaling Groups:-
 
   -- Select Auto Scaling Groups--Create Auto Scaling Groups--
 
