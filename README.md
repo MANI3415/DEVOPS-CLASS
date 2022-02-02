@@ -206,28 +206,27 @@ without any error.
 
   -- Select Auto Scaling Groups--Create Auto Scaling Groups--
 
-- Step 1
-- Choose launch template or configuration:-
-  -- and give name And Select Switch to Launch configuration And Select A Launch configuration --Next
-
-- Step 2
-- Choose instance launch options:-
-   -- Select Availabiliy Zones--Next
-- Step 3 (optional)
-- Configure advanced options:-
-   -- Select Attach to an existing load balancer--Select Existing load balancer target groups--Select Health check type(ELB)--Next
-- Step 4 (optional)
-- Configure group size and scaling policies:-
-   -- Next
-- Step 5 (optional)
-- Add notifications:-
-   -- Next
-- Step 6 (optional)
-- Add tags:-
-   -- Next
-- Step 7
-- Review:-
-   -- Create Auto Scaling Groups
+  - Step 1:
+    - Choose launch template or configuration:-
+      -- and give name And Select Switch to Launch configuration And Select A Launch configuration --Next
+  - Step 2:
+    - Choose instance launch options:-
+      -- Select Availabiliy Zones--Next
+  - Step 3 (optional)
+    - Configure advanced options:-
+      -- Select Attach to an existing load balancer--Select Existing load balancer target groups--Select Health check type(ELB)--Next
+  - Step 4 (optional)
+    - Configure group size and scaling policies:-
+      -- Next
+  - Step 5 (optional)
+    - Add notifications:-
+      -- Next
+  - Step 6 (optional)
+    - Add tags:-
+      -- Next
+  - Step 7
+    - Review:-
+      -- Create Auto Scaling Groups
    
  -------------------------------------------------------------------------------------------------------------
  **DAY-12 (03-02-2022)
