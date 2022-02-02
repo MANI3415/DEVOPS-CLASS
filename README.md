@@ -191,7 +191,7 @@ without any error.
   - NLB CREATION:-
     - SELECT CREATE LOAD BALANCER--SELECT NETWORK LOAD BALANCER--GIVE THE LOAD BALANCER NAME AND SELECT THE NLB TARGET GROUP--CREATE LOAD BALANCER
 
--- Auto Scaling
+- Auto Scaling
     - Launch Configurations
     - Auto Scaling Groups
 
@@ -228,8 +228,6 @@ without any error.
 - Step 7
 - Review:-
    -- Create Auto Scaling Groups
-
-
    
  -------------------------------------------------------------------------------------------------------------
  **DAY-12 (03-02-2022)
