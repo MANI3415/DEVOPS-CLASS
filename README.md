@@ -171,38 +171,39 @@ without any error.
 
 - first we launch the EC2 Instances
 
--- load balancing
-    -Load Balancers             
-    -Target Groups
+-- **load balancing
+    - Load Balancers             
+    - Target Groups
 
-step-1:-
---first we creating Target Groups:-
+- step-1:-
+-- first we creating Target Groups:-
 
- - create TARGET GROUPS FOLLOW THE APPICATION LOAD BALANCER PROTOCOL(HTTP/HTTPS)
-   -select Target Groups-create Target Groups--give the Target Name and select APPLICATION LOAD BALANCER Protocol--and select to register targets instances--include as pending below--create target group
+   - create TARGET GROUPS FOLLOW THE APPICATION LOAD BALANCER PROTOCOL(HTTP/HTTPS)
+   - select Target Groups-create Target Groups--give the Target Name and select APPLICATION LOAD BALANCER Protocol--and select to register targets instances--include as pending      below--create target group
  
- - create TARGET GROUPS FOLLOW THE NETWORK LOAD BALANCER PROTOCOL(TCP/UDP/TLS)
-   -select Target Groups-create Target Groups--give the Target Name and select NETWORK LOAD BALANCER Protocol--and select to register targets instances--include as pending below--create target group
+   - create TARGET GROUPS FOLLOW THE NETWORK LOAD BALANCER PROTOCOL(TCP/UDP/TLS)
+   - select Target Groups-create Target Groups--give the Target Name and select NETWORK LOAD BALANCER Protocol--and select to register targets instances--include as pending          below--create target group
 
-STEP-2:-
---LOAD BALANCERS:-
+- STEP-2:-
+-- LOAD BALANCERS:-
   - ALB CREATION:-
     - SELECT CREATE LOAD BALANCER--SELECT APPLICATION LOAD BALANCER--GIVE THE LOAD BALANCER NAME AND SELECT THE ALP TARGET GROUP--CREATE LOAD BALANCER
   - NLB CREATION:-
     - SELECT CREATE LOAD BALANCER--SELECT NETWORK LOAD BALANCER--GIVE THE LOAD BALANCER NAME AND SELECT THE NLB TARGET GROUP--CREATE LOAD BALANCER
 
---Auto Scaling
-  - Launch Configurations
-  - Auto Scaling Groups
+-- **Auto Scaling
+    - Launch Configurations
+    - Auto Scaling Groups
 
-STEP-3:-
-- Launch Configurations:-
+- STEP-3:-
+- **Launch Configurations:-
   
-  -- Select the Launch Configurations create Launch Configurations--first we create the launch templates--and give the template name and select AMI(amazon machine image)--and select any one of security group--create launch template
+  -- Select the Launch Configurations create Launch Configurations--first we create the launch templates--and give the template name and select AMI(amazon machine image)--and        select any one of security group--create launch template
    - now create Launch Configurations--give name,select any one of AMI and select instance(t2-micro),and select key pair is requried or not--create Launch Configurations
 
+- STEP-4:-
+- **Auto Scaling Groups:-
 
-- Auto Scaling Groups:-
   -- Select Auto Scaling Groups--Create Auto Scaling Groups--
 
 - Step 1
