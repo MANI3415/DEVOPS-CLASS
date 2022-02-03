@@ -230,7 +230,7 @@ without any error.
    
  -------------------------------------------------------------------------------------------------------------
  **DAY-12 (03-02-2022)
-- VIDEO LINK:
+- VIDEO LINK:https://www.youtube.com/watch?v=FjZyVZJvEg0
 - TOPICS DISCUSSED ON 03/02/2022
 - Config Group Size & Scaling Polices
 
@@ -246,11 +246,23 @@ without any error.
 - create a cloud watch
   - select matric--alarm
   
-- static                       # select ec2          # matric name
-- greater>=threshold        # auto scaling group     # cpu  utilization
-- value-70                                         # Auto scaling group
+   - static                              
+   - greater>=threshold             
+   - value-70                                      
+
+   - select ec2 
+   - auto scaling group
+
+   -  matric name
+   -   cpu  utilization
+   -   Auto scaling group
 
 - simple notification service()
+
+------------------------------------------------------------------------------------------------------
+ **DAY-13 (03-02-2022)
+- VIDEO LINK:
+- TOPICS DISCUSSED ON 04/02/2022
 
 
 
