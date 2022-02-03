@@ -229,7 +229,7 @@ without any error.
       -- Create Auto Scaling Groups
    
  -------------------------------------------------------------------------------------------------------------
- **DAY-12 (03-02-2022)
+ **DAY-13 (03-02-2022)
 - VIDEO LINK:https://www.youtube.com/watch?v=FjZyVZJvEg0
 - TOPICS DISCUSSED ON 03/02/2022
 - Config Group Size & Scaling Polices
@@ -260,7 +260,7 @@ without any error.
 - simple notification service()
 
 ------------------------------------------------------------------------------------------------------
- **DAY-13 (03-02-2022)
+ **DAY-14 (04-02-2022)
 - VIDEO LINK:
 - TOPICS DISCUSSED ON 04/02/2022
 
