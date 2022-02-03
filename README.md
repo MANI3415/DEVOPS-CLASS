@@ -246,9 +246,9 @@ without any error.
 - create a cloud watch
   - select matric--alarm
   
-- static                       - select ec2         - matric name
-- greater>=threshold        - auto scaling group    - cpu  utilization
-- value-70                                          - Auto scaling group
+- static                       # select ec2          # matric name
+- greater>=threshold        # auto scaling group     # cpu  utilization
+- value-70                                         # Auto scaling group
 
 - simple notification service()
 
