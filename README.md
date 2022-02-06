@@ -261,8 +261,21 @@ without any error.
 
 ------------------------------------------------------------------------------------------------------
  **DAY-14 (04-02-2022)
-- VIDEO LINK:
+- VIDEO LINK:https://www.youtube.com/watch?v=FjZyVZJvEg0&t=20s
 - TOPICS DISCUSSED ON 04/02/2022
+- cloudwatch
 
+-----------------------------------------------------------------------------
 
+**DAY-15 (05-02-2022)
+- VIDEO LINK:https:https://www.youtube.com/watch?v=GnhaFyLmJMQ
+- TOPICS DISCUSSED ON 05/02/2022
+- ec2 server launch using redhat
+- ec2 server launch using ubantu
+
+------------------------------------------------------------------------
+**DAY-16 (07-02-2022)
+- VIDEO LINK:
+- TOPICS DISCUSSED ON 07/02/2022
+- 
 
