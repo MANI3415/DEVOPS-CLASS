@@ -275,7 +275,17 @@ without any error.
 
 ------------------------------------------------------------------------
 **DAY-16 (07-02-2022)
-- VIDEO LINK:
+- VIDEO LINK:https://youtu.be/GxSXp6Qw7XE
 - TOPICS DISCUSSED ON 07/02/2022
-- 
+- Terraform-Hashicorp
+  - steps in Terrafoem
+    - configuration file
+    - init--plan--apply
+- IAC tools
+- Docker Ansible,puppet,saltstack,cloudformation
 
+-----------------------------------------------------------------------
+**DAY-17 (08-02-2022)
+- VIDEO LINK:
+- TOPICS DISCUSSED ON 08/02/2022
+- 
