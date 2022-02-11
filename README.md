@@ -309,24 +309,23 @@ without any error.
 1. file1 - first we create a file using .tf extension
   - vi provider.tf
   - goto google search aws provider and copy the
-   Usage:
-  provider "aws" {
-  region     = "us-west-2"
-  access_key = "my-access-key"
-  secret_key = "my-secret-key"
-}
+  - Usage:
+   - provider "aws" {
+   - region     = "us-west-2"
+   - access_key = "my-access-key"
+   - secret_key = "my-secret-key"
+   - }
 
 2. file2 - and create another file
    - vi main.tf --and search google main.tf 
 
-  resource "aws_instance" "app_server" {
-  ami = ""
-  instance_type = "t2.micro"
-  
-  tags = {
-    Name = "ExampleAppServerInstance"
-  }
-}  
+   - resource "aws_instance" "app_server" {
+   - ami = ""
+   - instance_type = "t2.micro" 
+   - tags = {
+   - Name = "ExampleAppServerInstance"
+   - }
+   - }  
 
 5. innatiated the terraform
    - terraform init
@@ -341,7 +340,7 @@ without any error.
 
 - Using infrastructure as a code
 
-- overview of launch server using terraform concept:-
+- **overview of launch server using terraform concept:-
   1. terraform install in server
   2. terraform to be configured for aws account
   3. terraform-- provide.tf--region,aws access key,secret key addes
@@ -350,24 +349,24 @@ without any error.
   6. terraform validation
   7. terraform apply
 
-- launching the multiple instances using terraform
+- **launching the multiple instances using terraform
 1. Goto Google search launch multiple instances for aws terraform
 2. Goto vi main.tf
-resource "aws_instance" "app_server" {
-  ami = ""
-  instance_type = "t2.micro"
-  count=3
-  tags = {
-    Name = "ExampleAppServerInstance"
-  }
-}  
+   - resource "aws_instance" "app_server" {
+   - ami = ""
+   - instance_type = "t2.micro"
+   - count=3
+   - tags = {
+   - Name = "ExampleAppServerInstance"
+   - }
+   - }  
 3. terraform init
 4. terraform validate
 5. terraform apply
 6. adding security groups
   - goto google search main.tf terraform security group
 
-- :wq!         ----save&quit
+- :wq!  ----save&quit
 
 ---------------------------------------------------------------------------------------------------------
 **DAY-18 (09-02-2022)
