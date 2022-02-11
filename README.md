@@ -286,6 +286,91 @@ without any error.
 
 -----------------------------------------------------------------------
 **DAY-17 (08-02-2022)
-- VIDEO LINK:
+- VIDEO LINK:https://www.youtube.com/watch?v=7AHa_VBeGqk&t=2202s
 - TOPICS DISCUSSED ON 08/02/2022
+1. first we launch the ubantu server 20.04
+2. connect to git bash using ssh key
+   - convert to root user: sudo -i
+   - update:sudo apt-get update
+3. install terraform in ubantu 20.04:-
+- Repository Configuration:
+  - curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  - sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  - sudo apt install terraform
+- Choosing Terraform Versions:
+  - apt policy terraform
+  - sudo apt install terraform=0.14.0
+- check the version:
+  - terraform --version
+4. terraform to be configured for aws account
+   - choose iam accpunt and select the manage access keys--
+   - create new access key
+- connect to access keys and seceret keys
+1. file1 - first we create a file using .tf extension
+  - vi provider.tf
+  - goto google search aws provider and copy the
+   Usage:
+  provider "aws" {
+  region     = "us-west-2"
+  access_key = "my-access-key"
+  secret_key = "my-secret-key"
+}
+
+2. file2 - and create another file
+   - vi main.tf --and search google main.tf 
+
+  resource "aws_instance" "app_server" {
+  ami = ""
+  instance_type = "t2.micro"
+  
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}  
+
+5. innatiated the terraform
+   - terraform init
+6. validate the terraform
+   - terraform validate
+7. terraform apply
+   - terraform apply  
+ - now server is launch
+8. terminate the server
+   - terraform destroy
+
+
+- Using infrastructure as a code
+
+- overview of launch server using terraform concept:-
+  1. terraform install in server
+  2. terraform to be configured for aws account
+  3. terraform-- provide.tf--region,aws access key,secret key addes
+  4. terraform--vi main.tf--ec2--name,ami,t2.nicro,tag
+  5. terraform init
+  6. terraform validation
+  7. terraform apply
+
+- launching the multiple instances using terraform
+1. Goto Google search launch multiple instances for aws terraform
+2. Goto vi main.tf
+resource "aws_instance" "app_server" {
+  ami = ""
+  instance_type = "t2.micro"
+  count=3
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}  
+3. terraform init
+4. terraform validate
+5. terraform apply
+6. adding security groups
+  - goto google search main.tf terraform security group
+
+- :wq!         ----save&quit
+
+---------------------------------------------------------------------------------------------------------
+**DAY-18 (09-02-2022)
+- VIDEO LINK:https://www.youtube.com/watch?v=XFXYphx8h0k&t=570s
+- TOPICS DISCUSSED ON 09/02/2022
 - 
