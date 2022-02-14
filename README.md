@@ -372,4 +372,159 @@ without any error.
 **DAY-18 (09-02-2022)
 - VIDEO LINK:https://www.youtube.com/watch?v=XFXYphx8h0k&t=570s
 - TOPICS DISCUSSED ON 09/02/2022
-- 
+
+---------------------------------
+- DAY-19 (10-02-2021)
+- VIDEO LINK:
+- TOPICS DISCUSSED ON 10/02/2022
+----------------
+- Topic variables
+1. first we launch the ubantu server 20.04
+2. connect to git bash using ssh key
+   - convert to root user: sudo -i
+   - update:sudo apt-get update
+3. install terraform in ubantu 20.04:-
+- Repository Configuration:
+  - curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  - sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  - sudo apt install terraform
+- Choosing Terraform Versions:
+  - apt policy terraform
+  - sudo apt install terraform=0.14.0
+- check the version:
+  - terraform --version
+4. terraform to be configured for aws account
+   - choose iam accpunt and select the manage access keys--
+   - create new access key
+- connect to access keys and seceret keys
+1. file1 - first we create a file using .tf extension
+  - vi provider.tf
+  - goto google search provider.tf and copy the
+--------------------
+ provider.tf
+-----------------
+provider "aws" {
+   region     = "ap-south-1"
+   access_key = "AKIAUJ5V5GF7WEYIBSXD"
+   secret_key = "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"
+}
+
+2. file2 - and create another file
+   - vi variable.tf --and search google variable.tf accesskey secretkey and copy
+------------------
+variable.tf
+----------------
+variable "instance_type" {
+   description = "Instance type t2.micro"
+   type        = string
+   default     = "t2.micro"
+}
+
+3. file3--and create  another file
+   - vi main.tf ---and search google main.tf
+----------------------
+main.tf
+-----------------------
+resource "aws_instance" "ec2_example" {
+
+   ami           = "ami-06a0b4e3b7eb7a300"
+   instance_type =  var.instance_type
+
+   tags = {
+           Name = "variable"
+   }
+} 
+
+5. innatiated the terraform
+   - terraform init
+6. validate the terraform
+   - terraform validate
+7. terraform apply
+   - terraform apply 
+
+------------------------------
+- DAY-20 (14-02-2022)
+--------------
+- VIDEO LINK:
+- TOPICS DISCUSSED ON 09/02/2022
+- Topic variables
+1. first we launch the ubantu server 20.04
+2. connect to git bash using ssh key
+   - convert to root user: sudo -i
+   - update:sudo apt-get update
+3. install terraform in ubantu 20.04:-
+- Repository Configuration:
+  - curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  - sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  - sudo apt install terraform
+- Choosing Terraform Versions:
+  - apt policy terraform
+  - sudo apt install terraform=0.14.0
+- check the version:
+  - terraform --version
+4. terraform to be configured for aws account
+   - choose iam accpunt and select the manage access keys--
+   - create new access key
+- connect to access keys and seceret keys
+1. file1 - first we create a file using .tf extension
+  - vi provider.tf
+  - goto google search provider.tf and copy the
+--------------------
+ provider.tf
+-----------------
+provider "aws" {
+   region     = "var.aws_region"
+   access_key = "var.access_key"
+   secret_key = "var.access_key"
+}
+
+2. file2 - and create another file
+   - vi variable.tf --and search google variable.tf accesskey secretkey and copy
+------------------
+variable.tf
+----------------
+variable "aws_region"    {
+   description ="aws region"
+   typr        =string
+   default     ="ap-south-1"
+}
+
+variable "access_key"    {
+   description ="access key"
+   typr        =string
+   default     ="AKIAUJ5V5GF7WEYIBSXD"
+}
+
+variable "secret_key"    {
+   description ="secret key"
+   typr        =string
+   default     ="5K/xRE+jJ3+o8Yg0uF9fPIFNbkKFb3GB/xgEodkJ"
+}
+
+variable "instance_type" {
+   description = "Instance type t2.micro"
+   type        = string
+   default     = "t2.micro"
+}
+
+3. file3--and create  another file
+   - vi main.tf ---and search google main.tf
+----------------------
+main.tf
+-----------------------
+resource "aws_instance" "ec2_example" {
+
+   ami           = "ami-06a0b4e3b7eb7a300"
+   instance_type =  var.instance_type
+
+   tags = {
+           Name = "variable"
+   }
+} 
+----------------------
+5. innatiated the terraform
+   - terraform init
+6. validate the terraform
+   - terraform validate
+7. terraform apply
+   - terraform apply 
