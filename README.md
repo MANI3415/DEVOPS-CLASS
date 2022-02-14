@@ -373,7 +373,7 @@ without any error.
 
 ---------------------------------------------------------------------------------------------------------------
 - DAY-19 (10-02-2021)
-- VIDEO LINK:
+- VIDEO LINK:https://www.youtube.com/watch?v=XFXYphx8h0k&t=476s
 - TOPICS DISCUSSED ON 10/02/2022
 ----------------
 - Topic variables
@@ -442,8 +442,10 @@ main.tf
 ------------------------------
 - DAY-20 (14-02-2022)
 --------------
-- VIDEO LINK:
-- TOPICS DISCUSSED ON 09/02/2022
+- VIDEO LINK:https://www.youtube.com/watch?v=IRkcq94BZIQ
+- TOPICS DISCUSSED ON 14/02/2022
+- REFERENCE:-
+  - https://learn.hashicorp.com/tutorials/terraform/variables
 - Topic variables
 1. first we launch the ubantu server 20.04
 2. connect to git bash using ssh key
@@ -523,3 +525,9 @@ main.tf
    - terraform validate
 7. terraform apply
    - terraform apply 
+
+--------------------------------------------------------------------------------------------------------
+- DAY-21 (15-02-2022)
+--------------
+- VIDEO LINK:
+- TOPICS DISCUSSED ON 15/02/2022
