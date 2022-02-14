@@ -127,9 +127,6 @@ without any error.
 - VIDEO LINK:https://youtu.be/EFZzknfFXsg
 - Topics discussed on 31/1/2022:
 
-
-
-
 -------------------------------------------------------------------------------------------------------------------------------
 **DAY-11 (01-02-2022)
 - VIDEO LINK:https://youtu.be/HaQvaEP2SJ8
@@ -170,22 +167,21 @@ without any error.
 - TOPICS DISCUSSED ON 02/02/2022
 
 - first we launch the EC2 Instances
-
 - load balancing
     - Load Balancers             
     - Target Groups
 
 - STEP-1:-
-                                - FIRST WE CREATING TARGET GROUPS:-
+  - FIRST WE CREATING TARGET GROUPS:-
 
-   - CREATE TARGET GROUPS FOLLOW THE APPICATION LOAD BALANCER PROTOCOL(HTTP/HTTPS)
-   - SELECT TARGET GROUPS-CREATE TARGET GROUPS--GIVE THE TARGET NAME AND SELECT APPLICATION LOAD BALANCER PROTOCOL--AND SELECT TO REGISTER TARGETS INSTANCES--INCLUDE AS PENDING      BELOW--CREATE TARGET GROUP
+   1. CREATE TARGET GROUPS FOLLOW THE APPICATION LOAD BALANCER PROTOCOL(HTTP/HTTPS)
+   2. SELECT TARGET GROUPS-CREATE TARGET GROUPS--GIVE THE TARGET NAME AND SELECT APPLICATION LOAD BALANCER PROTOCOL--AND SELECT TO REGISTER TARGETS INSTANCES--INCLUDE AS PENDING       BELOW--CREATE TARGET GROUP
  
-   - CREATE TARGET GROUPS FOLLOW THE NETWORK LOAD BALANCER PROTOCOL(TCP/UDP/TLS)
-   - SELECT TARGET GROUPS-CREATE TARGET GROUPS--GIVE THE TARGET NAME AND SELECT NETWORK LOAD BALANCER PROTOCOL--AND SELECT TO REGISTER TARGETS INSTANCES--INCLUDE AS PENDING          BELOW--CREATE TARGET GROUP
+   1. CREATE TARGET GROUPS FOLLOW THE NETWORK LOAD BALANCER PROTOCOL(TCP/UDP/TLS)
+   2. SELECT TARGET GROUPS-CREATE TARGET GROUPS--GIVE THE TARGET NAME AND SELECT NETWORK LOAD BALANCER PROTOCOL--AND SELECT TO REGISTER TARGETS INSTANCES--INCLUDE AS PENDING           BELOW--CREATE TARGET GROUP
 
 - STEP-2:-
-                                        - LOAD BALANCERS:-
+  - LOAD BALANCERS:-
   - ALB CREATION:-
     - SELECT CREATE LOAD BALANCER--SELECT APPLICATION LOAD BALANCER--GIVE THE LOAD BALANCER NAME AND SELECT THE ALP TARGET GROUP--CREATE LOAD BALANCER
   - NLB CREATION:-
@@ -196,16 +192,14 @@ without any error.
     - Auto Scaling Groups
 
 - STEP-3:-
-                                     - Launch Configurations:-
+  - Launch Configurations:-
   
-  -- Select the Launch Configurations create Launch Configurations--first we create the launch templates--and give the template name and select AMI(amazon machine image)--and        select any one of security group--create launch template
-   - now create Launch Configurations--give name,select any one of AMI and select instance(t2-micro),and select key pair is requried or not--create Launch Configurations
+   1. Select the Launch Configurations create Launch Configurations--first we create the launch templates--and give the template name and select AMI(amazon machine image)--and         select any one of security group--create launch template
+   2. now create Launch Configurations--give name,select any one of AMI and select instance(t2-micro),and select key pair is requried or not--create Launch Configurations
 
 - STEP-4:-
-                                      - Auto Scaling Groups:-
-
-  -- Select Auto Scaling Groups--Create Auto Scaling Groups--
-
+  - Auto Scaling Groups:-
+  - Select Auto Scaling Groups--Create Auto Scaling Groups--
   - Step 1:
     - Choose launch template or configuration:-
       -- and give name And Select Switch to Launch configuration And Select A Launch configuration --Next
@@ -288,18 +282,19 @@ without any error.
 **DAY-17 (08-02-2022)
 - VIDEO LINK:https://www.youtube.com/watch?v=7AHa_VBeGqk&t=2202s
 - TOPICS DISCUSSED ON 08/02/2022
+- EC2 SERVER LAUNCH USING TERRAFORM
 1. first we launch the ubantu server 20.04
 2. connect to git bash using ssh key
    - convert to root user: sudo -i
    - update:sudo apt-get update
 3. install terraform in ubantu 20.04:-
 - Repository Configuration:
-  - curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-  - sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-  - sudo apt install terraform
+ 1. curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+ 2. sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+ 3. sudo apt install terraform
 - Choosing Terraform Versions:
-  - apt policy terraform
-  - sudo apt install terraform=0.14.0
+  1. apt policy terraform
+  2. sudo apt install terraform=0.14.0
 - check the version:
   - terraform --version
 4. terraform to be configured for aws account
@@ -309,16 +304,17 @@ without any error.
 1. file1 - first we create a file using .tf extension
   - vi provider.tf
   - goto google search aws provider and copy the
+  - --------------
   - Usage:
    - provider "aws" {
    - region     = "us-west-2"
    - access_key = "my-access-key"
    - secret_key = "my-secret-key"
    - }
-
+-------------------
 2. file2 - and create another file
    - vi main.tf --and search google main.tf 
-
+-------------------
    - resource "aws_instance" "app_server" {
    - ami = ""
    - instance_type = "t2.micro" 
@@ -326,7 +322,7 @@ without any error.
    - Name = "ExampleAppServerInstance"
    - }
    - }  
-
+--------------------
 5. innatiated the terraform
    - terraform init
 6. validate the terraform
@@ -339,7 +335,7 @@ without any error.
 
 
 - Using infrastructure as a code
-
+------------------------------
 - **overview of launch server using terraform concept:-
   1. terraform install in server
   2. terraform to be configured for aws account
@@ -348,10 +344,11 @@ without any error.
   5. terraform init
   6. terraform validation
   7. terraform apply
-
+----------------------------------
 - **launching the multiple instances using terraform
 1. Goto Google search launch multiple instances for aws terraform
 2. Goto vi main.tf
+3. -----------------------
    - resource "aws_instance" "app_server" {
    - ami = ""
    - instance_type = "t2.micro"
@@ -360,6 +357,7 @@ without any error.
    - Name = "ExampleAppServerInstance"
    - }
    - }  
+   -------------------------------
 3. terraform init
 4. terraform validate
 5. terraform apply
@@ -373,7 +371,7 @@ without any error.
 - VIDEO LINK:https://www.youtube.com/watch?v=XFXYphx8h0k&t=570s
 - TOPICS DISCUSSED ON 09/02/2022
 
----------------------------------
+---------------------------------------------------------------------------------------------------------------
 - DAY-19 (10-02-2021)
 - VIDEO LINK:
 - TOPICS DISCUSSED ON 10/02/2022
@@ -403,37 +401,36 @@ without any error.
 --------------------
  provider.tf
 -----------------
-provider "aws" {
-   region     = "ap-south-1"
-   access_key = "AKIAUJ5V5GF7WEYIBSXD"
-   secret_key = "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"
-}
+- provider "aws" {
+  - region     = "ap-south-1"
+  - access_key = "AKIAUJ5V5GF7WEYIBSXD"
+  - secret_key = "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"
+- }
 
 2. file2 - and create another file
    - vi variable.tf --and search google variable.tf accesskey secretkey and copy
 ------------------
 variable.tf
 ----------------
-variable "instance_type" {
-   description = "Instance type t2.micro"
-   type        = string
-   default     = "t2.micro"
-}
+- variable "instance_type" {
+   - description = "Instance type t2.micro"
+   - type        = string
+   - default     = "t2.micro"
+- }
 
 3. file3--and create  another file
    - vi main.tf ---and search google main.tf
 ----------------------
 main.tf
 -----------------------
-resource "aws_instance" "ec2_example" {
+- resource "aws_instance" "ec2_example" {
+   - ami           = "ami-06a0b4e3b7eb7a300"
+   - instance_type =  var.instance_type
 
-   ami           = "ami-06a0b4e3b7eb7a300"
-   instance_type =  var.instance_type
-
-   tags = {
-           Name = "variable"
-   }
-} 
+   - tags = {
+           - Name = "variable"
+   - }
+- } 
 
 5. innatiated the terraform
    - terraform init
@@ -472,55 +469,53 @@ resource "aws_instance" "ec2_example" {
 --------------------
  provider.tf
 -----------------
-provider "aws" {
-   region     = "var.aws_region"
-   access_key = "var.access_key"
-   secret_key = "var.access_key"
-}
+1. provider "aws" {
+2.   region     = "var.aws_region"
+3.   access_key = "var.access_key"
+4.  secret_key = "var.access_key"
+5. }
 
 2. file2 - and create another file
    - vi variable.tf --and search google variable.tf accesskey secretkey and copy
 ------------------
 variable.tf
 ----------------
-variable "aws_region"    {
-   description ="aws region"
-   typr        =string
-   default     ="ap-south-1"
-}
+1. variable "aws_region"    {
+2.   description ="aws region"
+3.   typr        =string
+4.   default     ="ap-south-1"
+5. }
 
-variable "access_key"    {
-   description ="access key"
-   typr        =string
-   default     ="AKIAUJ5V5GF7WEYIBSXD"
-}
+6. variable "access_key"    {
+7.  description ="access key"
+8.   typr        =string
+9. default     ="AKIAUJ5V5GF7WEYIBSXD"
+10. }
 
-variable "secret_key"    {
-   description ="secret key"
-   typr        =string
-   default     ="5K/xRE+jJ3+o8Yg0uF9fPIFNbkKFb3GB/xgEodkJ"
-}
+11. variable "secret_key"    {
+12.   description ="secret key"
+13.   typr        =string
+14.   default     ="5K/xRE+jJ3+o8Yg0uF9fPIFNbkKFb3GB/xgEodkJ"
+15. }
 
-variable "instance_type" {
-   description = "Instance type t2.micro"
-   type        = string
-   default     = "t2.micro"
-}
+16. variable "instance_type" {
+17.   description = "Instance type t2.micro"
+18.   type        = string
+19.   default     = "t2.micro"
+20. }
 
 3. file3--and create  another file
    - vi main.tf ---and search google main.tf
 ----------------------
 main.tf
 -----------------------
-resource "aws_instance" "ec2_example" {
-
-   ami           = "ami-06a0b4e3b7eb7a300"
-   instance_type =  var.instance_type
-
-   tags = {
-           Name = "variable"
-   }
-} 
+1. resource "aws_instance" "ec2_example" {
+2.   ami           = "ami-06a0b4e3b7eb7a300"
+3.   instance_type =  var.instance_type
+4.   tags = {
+5.           Name = "variable"
+6.   }
+7. } 
 ----------------------
 5. innatiated the terraform
    - terraform init
