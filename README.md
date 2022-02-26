@@ -605,16 +605,16 @@ docker comes with 2 version
    - creating files current directory->vi test1
    - creating files current directory->vi test2
    - creating files current directory->vi test3
-   - creating files current directory->gvi test4
+   - creating files current directory->vi test4
  - git connert to unstaging area to staging area
    - git add .
- -git config --global user.name "MANI3415"
- -check the user name->git config user.name
+ - git config --global user.name "MANI3415"
+ - check the user name->git config user.name
 - git commit message
  - git commit -m "intial commit1"
  - git push origin main 
-   - asking the user.name--MANI3415
-   - asking the password---using tocken id
+   - asking the user.name-->MANI3415
+   - asking the password-->using tocken id
 - finally the test files are pushing the github
 
 - **Maven:-**
