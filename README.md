@@ -1,9 +1,9 @@
-**DEVOPS--CLASSLINK:-1 (18-01-2022 to 13-02-2022)**
-- Zoom Link:https://zoom.us/j/96078845638?pwd=dEZzSTBhQUtJNnR3VndtUDVYL1M1Zz09 
+- **DEVOPS--CLASSLINK:-1 (18-01-2022 to 13-02-2022)**
+- [Zoom Link](https://zoom.us/j/96078845638?pwd=dEZzSTBhQUtJNnR3VndtUDVYL1M1Zz09)
 - Zoom Credentials: Zoom id: 960 7884 5638
 - Passcode: devops
-**DEVOPS--CLASSLINK:-2 (14-02-2022 to till now)**
-- Zoom Link: https://us02web.zoom.us/j/82959733869?pwd=Snl1WHNmWDZML1lvSjM4UCtkMFZ2QT09
+- **DEVOPS--CLASSLINK:-2 (14-02-2022 to till now)**
+- [Zoom Link](https://us02web.zoom.us/j/82959733869?pwd=Snl1WHNmWDZML1lvSjM4UCtkMFZ2QT09)
 - Zoom Credentials: Zoom id: 829 5973 3869
 - Passcode: zVbm7t
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,7 +134,7 @@ without any error.
 
 -------------------------------------------------------------------------------------------------------------------------------
 **DAY-11 (01-02-2022)**
-- [VIDEO LINK](https://youtu.be/HaQvaEP2SJ8)
+- [DAY-11_VIDEO LINK](https://youtu.be/HaQvaEP2SJ8)
 - **TOPICS DISCUSSED ON 01/02/2022:**
 - NATGATE WAY
 
@@ -168,7 +168,7 @@ without any error.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 **DAY-12 (02-02-2022)**
-- [day-12_VIDEO LINK](https://www.youtube.com/watch?v=eA0N_elaO7I)
+- [DAY-12_VIDEO LINK](https://www.youtube.com/watch?v=eA0N_elaO7I)
 - **TOPICS DISCUSSED ON 02/02/2022**
 
 - first we launch the EC2 Instances
@@ -229,7 +229,7 @@ without any error.
    
  -------------------------------------------------------------------------------------------------------------
  **DAY-13 (03-02-2022)**
-- [day-13_VIDEO LINK](https://www.youtube.com/watch?v=FjZyVZJvEg0)
+- [DAY-13_VIDEO LINK](https://www.youtube.com/watch?v=FjZyVZJvEg0)
 - **TOPICS DISCUSSED ON 03/02/2022**
 - Config Group Size & Scaling Polices
 
@@ -377,7 +377,7 @@ without any error.
 - VARIABLES CREATION USING TERRAFORM
 
 ---------------------------------------------------------------------------------------------------------------
-- **DAY-19 (10-02-2021)**
+**DAY-19 (10-02-2021)**
 - [DAY-19_VIDEO LINK](https://www.youtube.com/watch?v=XFXYphx8h0k&t=476s)
 - **TOPICS DISCUSSED ON 10/02/2022**
 ----------------
@@ -446,7 +446,7 @@ without any error.
    - terraform apply 
 
 ------------------------------
-- **DAY-20 (14-02-2022)**
+**DAY-20 (14-02-2022)**
 - [DAY-20_VIDEO LINK](https://www.youtube.com/watch?v=IRkcq94BZIQ)
 - **TOPICS DISCUSSED ON 14/02/2022**
 - REFERENCE:-
@@ -532,20 +532,19 @@ without any error.
    - terraform apply 
 
 --------------------------------------------------------------------------------------------------------
-- **DAY-21 (16-02-2022)**
+**DAY-21 (16-02-2022)**
 - [DAY-21_VIDEO LINK](https://youtu.be/IMjAN0ucdng)
 - **TOPICS DISCUSSED ON 16/02/2022**
 - creation vpc using terraform in visual studio code
 
 ------------------------------------------------------------------------------------------------------------------------------
-- **DAY-22 (17-02-2022)**
+**DAY-22 (17-02-2022)**
 - [DAY-22_VIDEO LINK](https://youtu.be/uFh87rc_JwU)
 - **TOPICS DISCUSSED ON 17/02/2022**
 - creatinng vpc ,public subnets,private subnets,internet gateway,route table using terraform in visual studio
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-- **DAY-23 (22-02-2022)**
--------------------------
+**DAY-23 (22-02-2022)**
 - [DAY-23_VIDEO LINK](https://youtu.be/nMSI0VInCOQ)
 - **TOPICS DISCUSSED ON 22/02/2022**
 - **docker**
@@ -585,16 +584,13 @@ docker comes with 2 version
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-
-- **day-24 (24-02-2022)**
------------------------
+**day-24 (24-02-2022)**
 - [DAY-24_VIDEO LINK](https://youtu.be/LemcWBWbcgE)
 - **TOPICS DISCUSSED ON 24/02/2022**
 - **GIT**
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-- **day-25 (25-02-2022)**
------------------
+**day-25 (25-02-2022)**
 - [DAY-25_VIDEO LINK](https://youtu.be/Vn5_gu_f0xI)
 - **TOPICS DISCUSSED ON 25/02/2022**
 - **git:-**
@@ -674,8 +670,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   - mvn package
   
 --------------------------------------------------------------------------------------------------------------------------------------
-- **DAY-26 (26-02-2022)**
--------------------------
+**DAY-26 (26-02-2022)**
 - [DAY-26_VIDEO LINK](https://youtu.be/Vn5_gu_f0xI)
 - **TOPICS DISCUSSED ON 26/02/2022
 - **jankins:it is integreated automation tool**
