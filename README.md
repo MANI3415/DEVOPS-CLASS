@@ -671,29 +671,32 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   
 --------------------------------------------------------------------------------------------------------------------------------------
 **DAY-26 (26-02-2022)**
-- [DAY-26_VIDEO LINK](https://youtu.be/Vn5_gu_f0xI)
+- [DAY-26_VIDEO LINK](https://youtu.be/oZzWgYcpcbo)
 - **TOPICS DISCUSSED ON 26/02/2022
-- **jankins:it is integreated automation tool**
+- **jankins:**
+- it is continuous integreation and automation tool running
+- first we launch the ubantu 20.0.4 server and connect to gitbash
   - install jankins in ubantu 20.0.4
-- **Step 1 — Installing Jenkins:**
-    - wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
-    - sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-    - sudo apt update
-    - sudo apt install jankins
+  - Use to Long Term Support release
+- Step 1 — Installing Jenkins:
+```
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+```
+- step 2
+  - ls -all
+  - sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-- **Step 2 — Starting Jenkins:**  
-   - sudo systemctl start jenkins
-   - sudo systemctl status jenkins
-
-- **Step 3 — Opening the Firewall:**   
-   - sudo ufw allow 8080
-   - sudo ufw allow OpenSSH
-     sudo ufw enable
-   - sudo ufw status
-
-- **Step 4 — Setting Up Jenkins:**
+- step 3 — Opening the Firewall:
+  - enable the port 8080
+  - goto security groups->inbound rules->all tcp-anywhere->save
+- Step 4 — Setting Up Jenkins:
   - http://your_server_ip_or_domain:8080
-    - sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-- Copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.
+  - Copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
