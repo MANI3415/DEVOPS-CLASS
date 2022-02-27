@@ -231,15 +231,13 @@ without any error.
  **DAY-13 (03-02-2022)**
 - [DAY-13_VIDEO LINK](https://www.youtube.com/watch?v=FjZyVZJvEg0)
 - **TOPICS DISCUSSED ON 03/02/2022**
-- Config Group Size & Scaling Polices
-
-- Config Group Size
-  - Group Size Optimal
-  - Check The Activity--Check The Instances
-
-- Scaling polices
-  - none
-  - key and value optional
+  - Config Group Size & Scaling Polices
+  - **Config Group Size**
+    - Group Size Optimal
+    - Check The Activity--Check The Instances
+  - **Scaling polices*
+    - none
+    - key and value optional
  
 - create a dynamic scaling policy
 - create a cloud watch
@@ -262,25 +260,25 @@ without any error.
  **DAY-14 (04-02-2022)**
 - [DAY-14_VIDEO LINK](https://www.youtube.com/watch?v=FjZyVZJvEg0&t=20s)
 - **TOPICS DISCUSSED ON 04/02/2022**
-- cloudwatch
+  - cloudwatch
 
 -----------------------------------------------------------------------------
 **DAY-15 (05-02-2022)**
 - [DAY-15_VIDEO LINK](https:https://www.youtube.com/watch?v=GnhaFyLmJMQ)
 - **TOPICS DISCUSSED ON 05/02/2022**
-- ec2 server launch using redhat
-- ec2 server launch using ubantu
+  - ec2 server launch using redhat
+  - ec2 server launch using ubantu
 
 ------------------------------------------------------------------------
 **DAY-16 (07-02-2022)**
 - [DAY-16_VIDEO LINK](https://youtu.be/GxSXp6Qw7XE)
 - **TOPICS DISCUSSED ON 07/02/2022**
-- Terraform-Hashicorp
+  - Terraform-Hashicorp
   - steps in Terrafoem
     - configuration file
     - init--plan--apply
-- IAC tools
-- Docker Ansible,puppet,saltstack,cloudformation
+  - IAC tools
+  - Docker Ansible,puppet,saltstack,cloudformation
 
 -----------------------------------------------------------------------
 **DAY-17 (08-02-2022)**
@@ -676,7 +674,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 --------------------------------------------------------------------------------------------------------------------------------------
 **DAY-26 (26-02-2022)**
 - [DAY-26_VIDEO LINK](https://youtu.be/oZzWgYcpcbo)
-- **TOPICS DISCUSSED ON 26/02/2022
+- **TOPICS DISCUSSED ON 26/02/2022**
   - **jankins:**
   - it is continuous integreation and automation tool running
   - first we launch the ubantu 20.0.4 server and connect to gitbash
@@ -706,10 +704,25 @@ sudo apt-get install jenkins
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-27 (28-02-2022)**
 - [DAY-27_VIDEO LINK]()
-- **TOPICS DISCUSSED ON 28/02/2022
-  - ANSIBLE
+- **TOPICS DISCUSSED ON 28/02/2022**
+  - **ANSIBLE**
+  
 -------------------------------------------------------------------------------------------------------------------------------------------------
-**DAY-28 (29-02-2022)**
+**DAY-28 (01-03-2022)**
 - [DAY-28_VIDEO LINK]()
-- **TOPICS DISCUSSED ON 29/02/2022
-  - KUBERNETES
+- **TOPICS DISCUSSED ON 01/03/2022**
+  - **KUBERNETES**
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+**DAY-29 (02-03-2022)**
+- [DAY-28_VIDEO LINK]()
+- **TOPICS DISCUSSED ON 02/03/2022**
+  - **SPLUNK**
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+**DAY-30 (03-03-2022)**
+- [DAY-30_VIDEO LINK]()
+- **TOPICS DISCUSSED ON 03/03/2022**
+  -
+  
+--------------------------------------------------------------------------------------------------------------------------------------------------
