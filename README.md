@@ -1,11 +1,11 @@
 - **DEVOPS--CLASSLINK:-1 (18-01-2022 to 13-02-2022)**
-- [Zoom Link](https://zoom.us/j/96078845638?pwd=dEZzSTBhQUtJNnR3VndtUDVYL1M1Zz09)
-- Zoom Credentials: Zoom id: 960 7884 5638
-- Passcode: devops
+  - [Zoom Link](https://zoom.us/j/96078845638?pwd=dEZzSTBhQUtJNnR3VndtUDVYL1M1Zz09)
+  - Zoom Credentials: Zoom id: 960 7884 5638
+  - Passcode: devops
 - **DEVOPS--CLASSLINK:-2 (14-02-2022 to till now)**
-- [Zoom Link](https://us02web.zoom.us/j/82959733869?pwd=Snl1WHNmWDZML1lvSjM4UCtkMFZ2QT09)
-- Zoom Credentials: Zoom id: 829 5973 3869
-- Passcode: zVbm7t
+  - [Zoom Link](https://us02web.zoom.us/j/82959733869?pwd=Snl1WHNmWDZML1lvSjM4UCtkMFZ2QT09)
+  - Zoom Credentials: Zoom id: 829 5973 3869
+  - Passcode: zVbm7t
 ----------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-1 (18-01-2022)**
 - [DAY-1_VIDEO LINK](https://www.youtube.com/watch?v=d3u72SxI7ZE&t=445s)
@@ -32,10 +32,10 @@
     - AWS
     - GITHUB
     - DOCKER
-    - ANSIBLE
-    - KUBERNETES
     - MAVEN
     - JENKINS
+    - ANSIBLE
+    - KUBERNETES
     - SPLUNK
   - AWS ACCOUNT CREATION
   - DEMO OF EC2(SERVER LAUNCH)
@@ -374,7 +374,7 @@ without any error.
 **DAY-18 (09-02-2022)**
 - [DAY-18_VIDEO LINK](https://www.youtube.com/watch?v=XFXYphx8h0k&t=570s)
 - **TOPICS DISCUSSED ON 09/02/2022**
-- VARIABLES CREATION USING TERRAFORM
+  - VARIABLES CREATION USING TERRAFORM
 
 ---------------------------------------------------------------------------------------------------------------
 **DAY-19 (10-02-2021)**
@@ -449,7 +449,7 @@ without any error.
 **DAY-20 (14-02-2022)**
 - [DAY-20_VIDEO LINK](https://www.youtube.com/watch?v=IRkcq94BZIQ)
 - **TOPICS DISCUSSED ON 14/02/2022**
-- REFERENCE:-
+  - REFERENCE:-
   - https://learn.hashicorp.com/tutorials/terraform/variables
 - Topic variables
 1. first we launch the ubantu server 20.04
@@ -535,13 +535,13 @@ without any error.
 **DAY-21 (16-02-2022)**
 - [DAY-21_VIDEO LINK](https://youtu.be/IMjAN0ucdng)
 - **TOPICS DISCUSSED ON 16/02/2022**
-- creation vpc using terraform in visual studio code
+  - creation vpc using terraform in visual studio code
 
 ------------------------------------------------------------------------------------------------------------------------------
 **DAY-22 (17-02-2022)**
 - [DAY-22_VIDEO LINK](https://youtu.be/uFh87rc_JwU)
 - **TOPICS DISCUSSED ON 17/02/2022**
-- creatinng vpc ,public subnets,private subnets,internet gateway,route table using terraform in visual studio
+  - creatinng vpc ,public subnets,private subnets,internet gateway,route table using terraform in visual studio
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-23 (22-02-2022)**
@@ -576,29 +576,29 @@ docker comes with 2 version
      - win/
 --------------------------------------
 3. **repo**
-  - yum install yum-utsis -y
-  - yum repolist
-  - config->yum -config-manager --add-repo https://dowload.docker.com/linux/centos/docker-ce.repo
-  - check the repo available or not->yum repolist
-  - yum install docker-ce docker-ce-cli containerd.io -y
-
+    - yum install yum-utsis -y
+    - yum repolist
+  - config:
+    - yum -config-manager --add-repo https://dowload.docker.com/linux/centos/docker-ce.repo
+  - check the repo available or not:
+    - yum repolist
+    - yum install docker-ce docker-ce-cli containerd.io -y
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **day-24 (24-02-2022)**
 - [DAY-24_VIDEO LINK](https://youtu.be/LemcWBWbcgE)
 - **TOPICS DISCUSSED ON 24/02/2022**
-- **GIT**
+  - **GIT**
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 **day-25 (25-02-2022)**
 - [DAY-25_VIDEO LINK](https://youtu.be/Vn5_gu_f0xI)
 - **TOPICS DISCUSSED ON 25/02/2022**
-- **git:-**
-
-- working directory->staging area ->local reposratory->remote reposratory
-- first we launch the ubantu server 20.0.4
-- and connect to the github and install the git in server
-- check the files->  ls -all
+ - **git:-**
+   - working directory->staging area ->local reposratory->remote reposratory
+   - first we launch the ubantu server 20.0.4
+   - and connect to the github and install the git in server
+ - check the files->  ls -all
  - creating a repostratiry in github
  - git clone (git ssh url)
  - open the file->cd feb25/
@@ -608,11 +608,15 @@ docker comes with 2 version
    - creating files current directory->vi test4
  - git connert to unstaging area to staging area
    - git add .
- - git config --global user.name "MANI3415"
- - check the user name->git config user.name
-- git commit message
- - git commit -m "intial commit1"
- - git push origin main 
+   - or
+   - git add test1,test2,test3,test4
+   - git config --global user.name "MANI3415"
+ - check the user name:
+   - git config user.name
+- git commit message:
+   - git commit -m "intial commit1"
+- git push command:
+   - git push origin main 
    - asking the user.name-->MANI3415
    - asking the password-->using tocken id
 - finally the test files are pushing the github
@@ -620,7 +624,7 @@ docker comes with 2 version
 - **Maven:-**
 
 - Maven->Maven is a powerful project management tool that is based on PDM(project object model) used for project build,depependency and documentation
-- maven life cycle->
+- **maven life cycle**
   1. validate
   2. compiler
   3. test
@@ -673,12 +677,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 **DAY-26 (26-02-2022)**
 - [DAY-26_VIDEO LINK](https://youtu.be/oZzWgYcpcbo)
 - **TOPICS DISCUSSED ON 26/02/2022
-- **jankins:**
-- it is continuous integreation and automation tool running
-- first we launch the ubantu 20.0.4 server and connect to gitbash
-  - install jankins in ubantu 20.0.4
-  - Use to Long Term Support release
-- Step 1 — Installing Jenkins:
+  - **jankins:**
+  - it is continuous integreation and automation tool running
+  - first we launch the ubantu 20.0.4 server and connect to gitbash
+    - install jankins in ubantu 20.0.4
+    - Use to Long Term Support release
+- **Step 1 — Installing Jenkins:**
 ```
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
@@ -688,15 +692,24 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 sudo apt-get install jenkins
 ```
-- step 2
+- **step 2**
   - ls -all
   - sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-- step 3 — Opening the Firewall:
+- **step 3 — Opening the Firewall:**
   - enable the port 8080
   - goto security groups->inbound rules->all tcp-anywhere->save
-- Step 4 — Setting Up Jenkins:
+- **Step 4 — Setting Up Jenkins:**
   - http://your_server_ip_or_domain:8080
   - Copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+**DAY-27 (28-02-2022)**
+- [DAY-27_VIDEO LINK]()
+- **TOPICS DISCUSSED ON 28/02/2022
+  - ANSIBLE
+-------------------------------------------------------------------------------------------------------------------------------------------------
+**DAY-28 (29-02-2022)**
+- [DAY-28_VIDEO LINK]()
+- **TOPICS DISCUSSED ON 29/02/2022
+  - KUBERNETES
