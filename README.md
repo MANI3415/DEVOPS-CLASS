@@ -703,26 +703,46 @@ sudo apt-get install jenkins
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-27 (28-02-2022)**
-- [DAY-27_VIDEO LINK]()
+- [DAY-27_VIDEO LINK](https://www.youtube.com/watch?v=5H9esO6xNfo)
 - **TOPICS DISCUSSED ON 28/02/2022**
-  - **ANSIBLE**
+   - **jankins pipeline**
+     - first we launch the server and install the jenkins in server
+     - http://your_server_ip_or_domain:8080
+     - Copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.
+   - [groovy reference](https://www.guru99.com/groovy-tutorial.html)
+   - **example:1**
+     - select pipeline->ok
+     - Goto advanced project options->select hello word>save
+     - build the code
+     - console output->check the output
+   - **example:2**
+     - select pipeline->ok
+     - Goto advanced project options->select scripted pipeline-ok
+     - build the code
+   - [Examples of Bash Script](https://linuxhint.com/30_bash_script_examples/)
+   - **example:3**
+     - select pipeline->ok
+     - Goto advanced project options->SCM->SELECT GIT (IT IS RUNNING SOURCE CODE MANAGEMENT)->Give the Repository URL->ok
+   - **Manage jenkins:**
+      - config system
+      - global tool configuration
+      - manage plugins
+      - manage nodes and clouds  
   
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-28 (01-03-2022)**
 - [DAY-28_VIDEO LINK]()
-- **TOPICS DISCUSSED ON 01/03/2022**
-  - **KUBERNETES**
-
+- **TOPICS DISCUSSED ON 01/03/2022** 
+   - **ANSIBLE**
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-29 (02-03-2022)**
 - [DAY-28_VIDEO LINK]()
-- **TOPICS DISCUSSED ON 02/03/2022**
-  - **SPLUNK**
-
+- **TOPICS DISCUSSED ON 02/03/2022**  
+  - **KUBERNETES**
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-30 (03-03-2022)**
 - [DAY-30_VIDEO LINK]()
 - **TOPICS DISCUSSED ON 03/03/2022**
-  -
+  - **SPLUNK**
   
 --------------------------------------------------------------------------------------------------------------------------------------------------
