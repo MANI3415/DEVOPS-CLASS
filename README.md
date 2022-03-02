@@ -94,34 +94,29 @@
 **step by step launch ec2 by using created vpc**
   
 - **step-1**
-
-openvpc
----------
-yourvpcs
-----------
+- **openvpc**
+- yourvpcs
+------------
 create vpc--vpcname--ipv4-10.0.0.0/16-create vpc--actions-editdnshostname--enable--save changes
 
 - **step-2**
-
-subnets
--------
+- **subnets**
+--------------
 create subnet--given already created vpc id--subnet name--any one select availability zone--ipv4-10.0.0.0/16--create subnet
 
 - **step-3**
-
-internet gateway
------------------
+- **internet gateway**
+---------------------
 create internet gateway--name--create internet gateway--actions--attach to vpc--given already created vpc id--give ok
 
 - **step-4**
-
-route table
--------------
+- **route table**
+-----------------
 alredy one route table alredy created--select the name--routes--edit routes--add route--0.0.0.0/0--select internet gateway--select the alredy created gate way--save changes
 select sunnet associate--select edit subnet associate--select given one--ok
 
 - **step-5**
-open ec2
+- **open ec2**
 ------------
 launche instance--select any one of ami--select t2 micro free trair--choose instance type---select the alredy create vpc-to launch the ec2--open git bash to connection--now ec2 is launched by using created vpc
 without any error.
@@ -151,20 +146,20 @@ without any error.
     - (nginx)(apache)
   - round robin mechanism
     - Request--Response
+   
+- EFS(Elastic File System)
 
-           EFS(Elastic File System)
+- **Network Load Balancer is a Faster Then Application Load Balancer**
 
-### Network Load Balancer is a Faster Then Application Load Balancer
+- **NETWORK LOAD BALANCER**
+   - NLB IS WORKS ON TCP/UDP PROTOCOL
+   - OSI LAYER
+   - PORT BASED ROUTING
 
-**NETWORK LOAD BALANCER**
-- NLB IS WORKS ON TCP/UDP PROTOCOL
-- OSI LAYER
-- PORT BASED ROUTING
-
-**APPLICATION LOAD BALANCER:**
-- ALB------HTTP/HTTPS
-- APPLICATION LAYER
-- PATH BASED ROUTING
+- **APPLICATION LOAD BALANCER:**
+   - ALB------HTTP/HTTPS
+   - APPLICATION LAYER
+   - PATH BASED ROUTING
 
 ---------------------------------------------------------------------------------------------------------------------------------
 **DAY-12 (02-02-2022)**
@@ -177,7 +172,7 @@ without any error.
     - Target Groups
 
 - **STEP-1:-**
-  - FIRST WE CREATING TARGET GROUPS:-
+  - **FIRST WE CREATING TARGET GROUPS:-**
 
    1. CREATE TARGET GROUPS FOLLOW THE APPICATION LOAD BALANCER PROTOCOL(HTTP/HTTPS)
    2. SELECT TARGET GROUPS-CREATE TARGET GROUPS--GIVE THE TARGET NAME AND SELECT APPLICATION LOAD BALANCER PROTOCOL--AND SELECT TO REGISTER TARGETS INSTANCES--INCLUDE AS PENDING       BELOW--CREATE TARGET GROUP
@@ -186,7 +181,7 @@ without any error.
    2. SELECT TARGET GROUPS-CREATE TARGET GROUPS--GIVE THE TARGET NAME AND SELECT NETWORK LOAD BALANCER PROTOCOL--AND SELECT TO REGISTER TARGETS INSTANCES--INCLUDE AS PENDING           BELOW--CREATE TARGET GROUP
 
 - **STEP-2:-**
-  - LOAD BALANCERS:-
+  - **LOAD BALANCERS:-**
   - ALB CREATION:-
     - SELECT CREATE LOAD BALANCER--SELECT APPLICATION LOAD BALANCER--GIVE THE LOAD BALANCER NAME AND SELECT THE ALP TARGET GROUP--CREATE LOAD BALANCER
   - NLB CREATION:-
@@ -197,13 +192,13 @@ without any error.
     - Auto Scaling Groups
 
 - **STEP-3:-**
-  - Launch Configurations:-
+  - **Launch Configurations:-**
   
    1. Select the Launch Configurations create Launch Configurations--first we create the launch templates--and give the template name and select AMI(amazon machine image)--and         select any one of security group--create launch template
    2. now create Launch Configurations--give name,select any one of AMI and select instance(t2-micro),and select key pair is requried or not--create Launch Configurations
 
 - **STEP-4:-**
-  - Auto Scaling Groups:-
+  - **Auto Scaling Groups:-**
   - Select Auto Scaling Groups--Create Auto Scaling Groups--
   - Step 1:
     - Choose launch template or configuration:-
@@ -260,7 +255,7 @@ without any error.
  **DAY-14 (04-02-2022)**
 - [DAY-14_VIDEO LINK](https://www.youtube.com/watch?v=FjZyVZJvEg0&t=20s)
 - **TOPICS DISCUSSED ON 04/02/2022**
-  - cloudwatch
+   - **cloudwatch**
 
 -----------------------------------------------------------------------------
 **DAY-15 (05-02-2022)**
