@@ -726,14 +726,25 @@ sudo apt-get install jenkins
   
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-28 (04-03-2022)**
-- [DAY-28_VIDEO LINK]()
+- [DAY-28_VIDEO LINK](https://www.youtube.com/watch?v=2vMHy8fCm3Y)
 - **TOPICS DISCUSSED ON 04/03/2022**  
   - **ANSIBLE**
-  - **KUBERNETES**
+  - [ansible pic](https://1.cms.s81c.com/sites/default/files/2018-11-22/Ansible_ov.png)
+  - [playbook examples](https://docs.ansible.com/ansible/latest/network/getting_started/first_playbook.html)
+  - Ansible install
+    -[Ansible_install_reference](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+ ```
+ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo add-apt-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
+```
+
 -------------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-29 (05-03-2022)**
 - [DAY-29_VIDEO LINK]()
 - **TOPICS DISCUSSED ON 05/03/2022**
   - **SPLUNK**
+  - **KUBERNETES**
   
 --------------------------------------------------------------------------------------------------------------------------------------------------
