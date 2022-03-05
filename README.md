@@ -745,3 +745,100 @@ $ sudo apt install ansible
 - [Ansible_github_link_reference](https://github.com/rawi24/ansible2)
   
 --------------------------------------------------------------------------------------------------------------------------------------------------
+**DAY-29 (05-03-2022)**
+- [DAY-29_VIDEO LINK](https://www.youtube.com/watch?v=239hQ1bcjjk)
+- **TOPICS DISCUSSED ON 05/03/2022**  
+  - **ANSIBLE**
+  - **Navigate to One swrver to another server using configuration**
+    - First we launch the 2 servers (ubantu-20.0.4)
+    - connect to  gitbash
+  - create a user in server1 
+    - adduser devops  
+    - add the password
+  - create a user in server2
+    - adduser devops  
+    - add the password
+  - connect server1 to server2 
+    - ssh devops@server2_publicip
+    - it is showing authentication delined
+  - secureshall configuration:server1
+    - vi/etc/ssh/sshd_config
+      - passwordauthentication change no to yes
+      - save & quit (:wq!)
+  - secureshall configuration:server2
+    - vi/etc/ssh/sshd_config
+      - passwordauthentication change no to yes
+      - save & quit (:wq!)
+  - restart the service (server1 & server2)
+    - service ssh restart 
+  - connect server1 to server2
+    - ssh devops@server2_publicip
+    - give the password
+    - now it is secureshall is showing the private ip of server2
+    - exit
+  - connect server2 to server1
+    - ssh devops@server1_publicip
+    - give the password
+    - now it is secureshall is showing the private ip of server1
+    - exit
+   
+   - **without password authentication**
+    - access the sudo permissions:server1
+       - vi/etc/sudoers
+         - give the configuration:
+         - devops ALL =(ALL:ALL) NOPASSWD:ALL 
+         - save & quit (:wq!)
+    - access the sudo permissions:server2
+       - vi/etc/sudoers
+         - give the configuration:
+         - devops ALL =(ALL:ALL) NOPASSWD:ALL 
+         - save & quit (:wq!)
+    - remove the ssh directory (server1 & server2)
+       -  ls -all
+       -  rm -rf .ssh/
+    - now it's create a secureshall (server1)
+       - ssh-keygen
+       - now it's copy the ssh key
+       - ssh-copy-id devops@server2_publicip
+    - connect server1 to server2 withoutpassword
+      - ssh devops@server2_publicip
+    - now it's create a secureshall (server2)
+       - ssh-keygen
+       - now it's copy the ssh key
+       - ssh-copy-id devops@server1_publicip
+    - connect server2 to server1 withoutpassword
+      - ssh devops@server1_publicip
+
+- **Ansible install:**(server1)
+    -[Ansible_install_ubantu_server-20.0.4_reference](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+ ```
+ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo add-apt-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
+```
+- check the version
+  - ansible --version
+- config:(server1)
+  - sudo vi /etc/ansible/hosts
+    -  give the server2_publicip
+    -  save & quit (:wq!)
+  - remove the ssh directory (server1 & server2)
+       -  ls -all
+       -  rm -rf .ssh/
+  - now it's create a secureshall (server1)
+       - ssh-keygen
+       - now it's copy the ssh key
+       - ssh-copy-id devops@server2_publicip
+  - ansible -m ping all
+  - ssh devops@server2_publicip
+  - create test1 file
+     - mkdir test1
+  - open the file
+     -  cd test1/
+     -  vi hosts
+        - copy the server2_publicip
+     - ansible -i hosts -m ping all
+  
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
