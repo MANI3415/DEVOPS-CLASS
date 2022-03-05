@@ -749,7 +749,7 @@ $ sudo apt install ansible
 - [DAY-29_VIDEO LINK](https://www.youtube.com/watch?v=239hQ1bcjjk)
 - **TOPICS DISCUSSED ON 05/03/2022**  
   - **ANSIBLE**
-  - **Navigate to One swrver to another server using configuration**
+  - **Navigate to One server to another server using configuration**
     - First we launch the 2 servers (ubantu-20.0.4)
     - connect to  gitbash
   - create a user in server1 
