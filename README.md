@@ -762,11 +762,11 @@ $ sudo apt install ansible
     - ssh devops@server2_publicip
     - it is showing authentication delined
   - secureshall configuration:server1
-    - vi/etc/ssh/sshd_config
+    - vi /etc/ssh/sshd_config
       - passwordauthentication change no to yes
       - save & quit (:wq!)
   - secureshall configuration:server2
-    - vi/etc/ssh/sshd_config
+    - vi /etc/ssh/sshd_config
       - passwordauthentication change no to yes
       - save & quit (:wq!)
   - restart the service (server1 & server2)
@@ -784,12 +784,12 @@ $ sudo apt install ansible
    
    - **without password authentication**
     - access the sudo permissions:server1
-       - vi/etc/sudoers
+       - vi /etc/sudoers
          - give the configuration:
          - devops ALL =(ALL:ALL) NOPASSWD:ALL 
          - save & quit (:wq!)
     - access the sudo permissions:server2
-       - vi/etc/sudoers
+       - vi /etc/sudoers
          - give the configuration:
          - devops ALL =(ALL:ALL) NOPASSWD:ALL 
          - save & quit (:wq!)
