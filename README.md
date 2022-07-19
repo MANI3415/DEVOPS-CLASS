@@ -6,6 +6,8 @@
   - [Zoom Link](https://us02web.zoom.us/j/82959733869?pwd=Snl1WHNmWDZML1lvSjM4UCtkMFZ2QT09)
   - Zoom Credentials: Zoom id: 829 5973 3869
   - Passcode: zVbm7t
+  
+  https://networkcreatedbymani.s3.ap-south-1.amazonaws.com/NETWORK+CONFIG.txt
 ----------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-1 (18-01-2022)**
 - [DAY-1_VIDEO LINK](https://www.youtube.com/watch?v=d3u72SxI7ZE&t=445s)
