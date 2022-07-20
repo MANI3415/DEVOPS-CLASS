@@ -8,6 +8,28 @@
   - Passcode: zVbm7t
   
   https://networkcreatedbymani.s3.ap-south-1.amazonaws.com/NETWORK+CONFIG.txt
+  ---------------------------------------------------------------------------------
+  POwer sheLL
+
+@Windows PowerShell uses a "Verb-Noun" naming system
+
+@Get-Command can be used to fetch related cmdlets based on the parameters they accept.
+
+GET-HOST--->to retrieve information about the version for powershell.
+GET-COMMAND-->to retrieve all the commands that are registerd in power shell
+Get-Command -Noun HOST-->
+Get-Command Get-Host---->
+Get-Help--->to retrieve all the information such as syntax, function, alias, example and properties about a                     specific cmdlet. 
+(____).count----->to count 
+
+Windows PowerShell has three types of parameters:
+1.Optional parameters
+2.Mandatory parameters
+3.Positional parameters
+
+@Independent cmdlet used to get information about cmdlets.
+ALIES:
+
 ----------------------------------------------------------------------------------------------------------------------------------------------
 **DAY-1 (18-01-2022)**
 - [DAY-1_VIDEO LINK](https://www.youtube.com/watch?v=d3u72SxI7ZE&t=445s)
