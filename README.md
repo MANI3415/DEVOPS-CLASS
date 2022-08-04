@@ -6,10 +6,8 @@
   - [Zoom Link](https://us02web.zoom.us/j/82959733869?pwd=Snl1WHNmWDZML1lvSjM4UCtkMFZ2QT09)
   - Zoom Credentials: Zoom id: 829 5973 3869
   - Passcode: zVbm7t
-  
-  https://networkcreatedbymani.s3.ap-south-1.amazonaws.com/NETWORK+CONFIG.txt
   ---------------------------------------------------------------------------------
-  POwer sheLL
+  POwersheLL
 
 @Windows PowerShell uses a "Verb-Noun" naming system
 
@@ -19,7 +17,7 @@ GET-HOST--->to retrieve information about the version for powershell.
 GET-COMMAND-->to retrieve all the commands that are registerd in power shell
 Get-Command -Noun HOST-->
 Get-Command Get-Host---->
-Get-Help--->to retrieve all the information such as syntax, function, alias, example and properties about a                     specific cmdlet. 
+Get-Help--->to retrieve all the information such as syntax, function, alias, example and properties about a specific cmdlet. 
 (____).count----->to count 
 
 Windows PowerShell has three types of parameters:
